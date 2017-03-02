@@ -16,6 +16,17 @@ public class T1P1 {
         int[][] a = new int[20][20];
 
         // Code to fill array with random ints
+        for(int i = 0; i < a.length; i++){
+            for(int j = 0; j < a[i].length; j++){
+                a[i][j] = gen.nextInt(100);
+            }
+        }
         // Code to print array row by row
+        for(int i = 0; i < a.length; i++){
+            for(int j = 0; j < a[i].length; j++){
+                System.out.print(String.format("%4d",a[i][j]));
+            }
+            System.out.println("");
+        }
     }
 }
