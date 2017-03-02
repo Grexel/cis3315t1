@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Write 100 random ints to a text file; one int per line. Use a try with
@@ -27,6 +28,18 @@ public class T1P3 {
                 if(i != numberOfRandomInts - 1){
                     bw.write("\n");
                 }
+            }
+        }catch(IOException ieo){
+            System.out.println(ieo);
+        }
+        finally{
+            System.out.println("All done");
+        }
+        
+        //try reading a file with random ints
+        try(Scanner sc = new Scanner(new File(fileName))){
+            while(sc.hasNextLine()){
+                System.out.println(sc.nextLine());
             }
         }catch(IOException ieo){
             System.out.println(ieo);
