@@ -7,7 +7,7 @@ import java.util.Random;
  * values between 0 and 99. Then use a nested loop to print out the array row by
  * row with the numbers in evenly spaced columns.
  *
- * @author Your Name Here
+ * @author Jeffrey Miller
  */
 public class T1P1 {
 

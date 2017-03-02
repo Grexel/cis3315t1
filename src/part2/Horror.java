@@ -3,7 +3,7 @@ package part2;
 /**
  * Set the genre to horror. See SciFi example...
  *
- * @author Your name
+ * @author Jeffrey Miller
  */
 public class Horror extends Book {
     public Horror(String title, String author) {

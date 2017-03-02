@@ -3,7 +3,7 @@ package part2;
 /**
  * Set the genre to romance. See SciFi example...
  *
- * @author Your name
+ * @author Jeffrey Miller
  */
 public class Romance extends Book {
     public Romance(String title, String author) {
