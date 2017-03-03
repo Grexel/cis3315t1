@@ -36,6 +36,7 @@ public class T1P3 {
             System.out.println("All done");
         }
         
+        /*
         //try reading a file with random ints
         try(Scanner sc = new Scanner(new File(fileName))){
             while(sc.hasNextLine()){
@@ -47,5 +48,6 @@ public class T1P3 {
         finally{
             System.out.println("All done");
         }
+        */
     }
 }
